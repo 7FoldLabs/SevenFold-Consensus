@@ -90,3 +90,13 @@ For licensing inquiries, research collaboration, or authorized implementations:
 
 **SevenFold Labs LLC**  
 📧 SevenFoldLabs@gmail.com
+
+---
+
+## Intellectual Property Notice
+
+SevenFold is a patent-pending deterministic consensus protocol.
+All rights are reserved by SevenFold Labs LLC.
+
+This repository is published for research, review, and citation purposes only.
+Commercial use or derivative works require explicit written permission.
