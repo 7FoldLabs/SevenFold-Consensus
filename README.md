@@ -9,6 +9,14 @@ SevenFold is presented as a **Proof of Consensus (PoC)** — a geometric decisio
 
 ---
 
+## Canonical Publication
+
+The authoritative, citable version of this work is published on Zenodo:
+
+https://doi.org/10.5281/zenodo.17914272
+
+---
+
 ## What Problem This Solves  
 
 For decades, distributed systems have relied on probabilistic techniques to overcome the impossibility of deterministic agreement under contention. As a result, modern consensus systems depend on randomness, stake weighting, leader selection, or timing assumptions.
