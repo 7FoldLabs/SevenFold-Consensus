@@ -76,6 +76,66 @@ Commercial licensing, collaborations, and authorized implementations are managed
 
 ---
 
+Ethical Use, Dual-Use Risk & Restricted Domains
+
+SevenFold is a powerful deterministic arbitration engine. Like
+cryptography and other foundational primitives, it is mathematically
+neutral but not morally neutral in deployment. Because it can
+concentrate decision-making power across many agents, SevenFold Labs
+LLC places explicit ethical and field-of-use limits on how this work
+may be used.
+
+The public materials in this repository are licensed under
+CC BY-NC-ND 4.0 and are intended for research, education, review, and
+non-commercial experimentation only. They are not a grant of rights for
+production deployment or commercial integration.
+
+### Prohibited Uses (Public License)
+
+By using, studying, or building on this work under the public license,
+you agree that you will not apply SevenFold, or any substantial
+derivative of it, to:
+
+- Real-time mass surveillance of civilian populations
+- Social-scoring / citizen-credit systems used for control or discrimination
+- Large-scale behavioral or psychological manipulation targeting populations
+- Systems whose primary purpose is population-level coercion, repression,
+  or information control
+
+These uses are incompatible with the intent of SevenFold and are
+considered out of bounds under any good-faith reading of this project.
+
+### Restricted Domains (License-Only)
+
+Certain domains are recognized as inherently sensitive and are **not**
+authorized under the public CC BY-NC-ND 4.0 grant. These include, but
+are not limited to:
+
+- Military, defense, and security applications
+- Autonomous weapon systems or components of a lethal kill-chain
+- High-impact national security or intelligence systems
+
+Any exploration of SevenFold in these areas requires explicit written
+approval and a separate license agreement with SevenFold Labs LLC.
+Such licenses, if ever granted, may be narrowly scoped, audited, and
+revocable, and may restrict use to strictly defensive or safety-oriented
+roles.
+
+### Intent
+
+SevenFold is intended for applications that enhance safety, stability,
+reliability, and human dignity — for example in robotics, infrastructure,
+energy systems, AI arbitration, sensor fusion, and other safety-critical
+domains.
+
+All production or commercial use of SevenFold must go through a
+licensing process with SevenFold Labs LLC and may be refused or
+terminated on ethical grounds at the sole discretion of SevenFold Labs LLC.
+This ethical stance is in addition to, and not a replacement for, the
+underlying legal license.
+
+---
+
 ## Attribution  
 
 **Inventor & Author**  
