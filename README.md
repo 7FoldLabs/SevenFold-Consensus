@@ -17,6 +17,13 @@ https://doi.org/10.5281/zenodo.17914272
 
 ---
 
+In addition to the primary protocol paper above, a formal definitions companion has now been published on Zenodo:
+
+*SevenFold Protocol — Canonical Objects and Invariants (Definitions Companion to the SevenFold Proof of Consensus)*  
+https://doi.org/10.5281/zenodo.17940111
+
+---
+
 ## What Problem This Solves  
 
 For decades, distributed systems have relied on probabilistic techniques to overcome the impossibility of deterministic agreement under contention. As a result, modern consensus systems depend on randomness, stake weighting, leader selection, or timing assumptions.
