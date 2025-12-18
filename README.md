@@ -24,6 +24,15 @@ https://doi.org/10.5281/zenodo.17940111
 
 ---
 
+A third, fully harmonized engineering standard has now been published:
+
+SevenFold Proof of Consensus — Canonical Specification (Version 2.0)  
+https://doi.org/10.5281/zenodo.17970561  
+
+This specification locks the final notation for the centroid S ⊂ ℝᵈ, the axis set U = {uₖ} ⊂ ℝᵈ, the admissibility thresholds τ₁ and τ₂, and the canonical rotor over ℤ₅ with stride {+3, −2} and traversal order {0, 3, 1, 4, 2}. All future implementations and citations should treat this document as the authoritative protocol standard.
+
+---
+
 ## What Problem This Solves  
 
 For decades, distributed systems have relied on probabilistic techniques to overcome the impossibility of deterministic agreement under contention. As a result, modern consensus systems depend on randomness, stake weighting, leader selection, or timing assumptions.
