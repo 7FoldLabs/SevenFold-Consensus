@@ -115,7 +115,7 @@ Important:
 - Any future SevenFold/SevnFold network or SEVN token launch will be announced through
   official SevenFold Labs LLC channels and will operate under separate legal and
   technical documentation.
-- Any chain or token branding itself as “SevenFold/SevenFold” or “SEVN” without an
+- Any chain or token branding itself as “SevenFold/SevnFold” or “SEVN” without an
   explicit license from SevenFold Labs LLC is **not** affiliated with this
   project, regardless of whether it implements similar mathematics.
 
