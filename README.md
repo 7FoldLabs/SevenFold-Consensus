@@ -72,6 +72,57 @@ Detailed optimizations, scaling strategies, and production integrations are inte
 
 ---
 
+Benchmarks & Development Reports
+--------------------------------
+
+Public-facing benchmark and development artifacts for the SevenFold Proof of Consensus
+are collected in the [`/reports`](./reports/README.md) folder. These reports include:
+
+- A minimal public verification benchmark for the canonical 5-axis constellation and rotor
+- Side-by-side latency tests versus an Ethereum test node
+- Genesis benchmark notes from the first successful end-to-end run
+- A development report capturing the initial multi-node PoC environment
+
+These materials are supporting evidence for the Zenodo papers and show that SevenFold has
+been implemented and exercised in a real test environment. They are **illustrative**, not
+a production deployment guide.
+
+---
+
+Planned Network & SEVN Token (Intent Only)
+------------------------------------------
+
+The SevenFold Proof of Consensus is a chain-agnostic protocol. This repository
+documents the mathematics, canonical specification, and public benchmarks. It is
+_not_ itself a blockchain network or token project.
+
+SevenFold Labs LLC is currently exploring a dedicated SevenFold-powered network
+with a native token tentatively referred to as **SEVN** (and related marks such
+as **SevnFold**). The intent for such a network would be:
+
+- To serve as the **first canonical production implementation** of the SevenFold
+  Proof of Consensus.
+- To demonstrate **deterministic, geometric finality** in a live, adversarial
+  environment.
+- To provide a foundation for **licensed integrations** in AI arbitration,
+  robotics, infrastructure, and other safety-critical domains.
+
+Important:
+
+- **No SEVN token or SevenFold mainnet has been launched as of this writing.**
+- Nothing in this repository constitutes a token sale, investment offering, or
+  solicitation.
+- Any future SevenFold/SevnFold network or SEVN token launch will be announced through
+  official SevenFold Labs LLC channels and will operate under separate legal and
+  technical documentation.
+- Any chain or token branding itself as “SevenFold/SevenFold” or “SEVN” without an
+  explicit license from SevenFold Labs LLC is **not** affiliated with this
+  project, regardless of whether it implements similar mathematics.
+
+This section is provided solely to clarify long-term intent and to distinguish
+the foundational protocol work in this repository from any future network or
+token that may be built on top of it.
+
 ## Intellectual Property & Licensing  
 
 SevenFold is **patent-pending** (provisional filed December 1, 2025).
@@ -160,11 +211,13 @@ SevenFold Labs LLC
 
 ---
 
-## Status  
+## Status
 
-- Zenodo archival record published  
-- Patent pending  
-- Reference implementation in active development  
+- Zenodo archival record published
+- Canonical definitions and protocol specification published
+- Public benchmark and development reports available under `/reports`
+- Patent pending
+- Reference implementation in active development
 
 ---
 
