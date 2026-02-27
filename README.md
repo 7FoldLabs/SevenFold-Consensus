@@ -9,6 +9,10 @@ SevenFold is presented as a **Proof of Consensus (PoC)** — a geometric decisio
 
 ---
 
+processes.
+
+---
+
 ## Publications
 
 ### Latest (February 2026)
@@ -19,7 +23,7 @@ Harmonic Field Geometry: Axiomatic Foundations of Coprime Convergence
 
 **Protocol Whitepaper v3.0**  
 SevenFold: A Deterministic Geometric Consensus Protocol  
-📄 [DOI: 10.5281/zenodo.18808110](https://doi.org/10.5281/zenodo.18807474)
+📄 [DOI: 10.5281/zenodo.18807475](https://doi.org/10.5281/zenodo.18807475)
 
 ### Canonical Specifications (2025)
 
@@ -31,16 +35,6 @@ SevenFold: A Deterministic Geometric Consensus Protocol
 
 **Specification v2.0**  
 📄 [DOI: 10.5281/zenodo.17970561](https://doi.org/10.5281/zenodo.17970561)
-
----
-
-## What Problem This Solves  
-
-For decades, distributed systems have relied on probabilistic techniques to overcome the impossibility of deterministic agreement under contention. As a result, modern consensus systems depend on randomness, stake weighting, leader selection, or timing assumptions.
-
-SevenFold shows that these assumptions are not strictly necessary.
-
-By modeling consensus as a **geometric convergence problem**, SevenFold demonstrates that agreement can be reached deterministically in a bounded number of steps — without relying on probability or trust-weighted influence.
 
 ---
 
