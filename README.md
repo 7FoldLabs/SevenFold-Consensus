@@ -9,27 +9,28 @@ SevenFold is presented as a **Proof of Consensus (PoC)** — a geometric decisio
 
 ---
 
-## Canonical Publication
+## Publications
 
-The authoritative, citable version of this work is published on Zenodo:
+### Latest (February 2026)
 
-https://doi.org/10.5281/zenodo.17914272
+**Mathematical Foundations**  
+Harmonic Field Geometry: Axiomatic Foundations of Coprime Convergence  
+📄 [DOI: 10.5281/zenodo.18807891](https://doi.org/10.5281/zenodo.18807891)
 
----
+**Protocol Whitepaper v3.0**  
+SevenFold: A Deterministic Geometric Consensus Protocol  
+📄 [DOI: 10.5281/zenodo.18807474](https://doi.org/10.5281/zenodo.18807474)
 
-In addition to the primary protocol paper above, a formal definitions companion has now been published on Zenodo:
+### Canonical Specifications (2025)
 
-*SevenFold Protocol — Canonical Objects and Invariants (Definitions Companion to the SevenFold Proof of Consensus)*  
-https://doi.org/10.5281/zenodo.17940111
+**Primary Protocol**  
+📄 [DOI: 10.5281/zenodo.17914272](https://doi.org/10.5281/zenodo.17914272)
 
----
+**Canonical Definitions**  
+📄 [DOI: 10.5281/zenodo.17940111](https://doi.org/10.5281/zenodo.17940111)
 
-A third, fully harmonized engineering standard has now been published:
-
-SevenFold Proof of Consensus — Canonical Specification (Version 2.0)  
-https://doi.org/10.5281/zenodo.17970561  
-
-This specification locks the final notation for the centroid S ⊂ ℝᵈ, the axis set U = {uₖ} ⊂ ℝᵈ, the admissibility thresholds τ₁ and τ₂, and the canonical rotor over ℤ₅ with stride {+3, −2} and traversal order {0, 3, 1, 4, 2}. All future implementations and citations should treat this document as the authoritative protocol standard.
+**Specification v2.0**  
+📄 [DOI: 10.5281/zenodo.17970561](https://doi.org/10.5281/zenodo.17970561)
 
 ---
 
@@ -216,7 +217,7 @@ SevenFold Labs LLC
 - Zenodo archival record published
 - Canonical definitions and protocol specification published
 - Public benchmark and development reports available under `/reports`
-- Patent pending
+- Patent pending (filed December 1, 2025)
 - Reference implementation in active development
 
 ---
@@ -227,6 +228,29 @@ For licensing inquiries, research collaboration, or authorized implementations:
 
 **SevenFold Labs LLC**  
 📧 SevenFoldLabs@gmail.com
+
+---
+
+## Citation
+
+If you reference this work, please cite:
+
+```bibtex
+@article{weddington2026harmonic,
+  title={Harmonic Field Geometry: Axiomatic Foundations of Coprime Convergence},
+  author={Weddington, Adrian},
+  journal={Zenodo},
+  year={2026},
+  doi={10.5281/zenodo.18807891}
+}
+
+@techreport{weddington2026sevenfold,
+  title={SevenFold: A Deterministic Geometric Consensus Protocol},
+  author={Weddington, Adrian},
+  institution={SevenFold Labs LLC},
+  year={2026},
+  doi={10.5281/zenodo.18807474}
+}
 
 ---
 
