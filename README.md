@@ -19,7 +19,7 @@ Harmonic Field Geometry: Axiomatic Foundations of Coprime Convergence
 
 **Protocol Whitepaper v3.0**  
 SevenFold: A Deterministic Geometric Consensus Protocol  
-📄 [DOI: 10.5281/zenodo.18807475](https://doi.org/10.5281/zenodo.18807474)
+📄 [DOI: 10.5281/zenodo.18808110](https://doi.org/10.5281/zenodo.18807474)
 
 ### Canonical Specifications (2025)
 
