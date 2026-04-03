@@ -88,7 +88,7 @@ Detailed optimizations, scaling strategies, and production integrations are inte
 ## Benchmarks & Development Reports
 -----------------------------------
 
-| Metric | SevenFold Kernel | Ethereum PoS |
+| Metric | SevenFold PoC | Ethereum PoS |
 |--------|-----------------|--------------|
 | Decisions | 20,000 | 10 |
 | Total time | 30ms | 127ms |
