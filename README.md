@@ -73,20 +73,35 @@ Detailed optimizations, scaling strategies, and production integrations are inte
 
 ---
 
-Benchmarks & Development Reports
---------------------------------
+## Benchmarks & Development Reports
+-----------------------------------
 
-Public-facing benchmark and development artifacts for the SevenFold Proof of Consensus
-are collected in the [`/reports`](./reports/README.md) folder. These reports include:
+| Metric | SevenFold Kernel | Ethereum PoS |
+|--------|-----------------|--------------|
+| Decisions | 20,000 | 10 |
+| Total time | 30ms | 127ms |
+| Avg decision latency | **2µs** | 12.7ms |
+| Final variance | **0.000000** | — |
+| Forks | **0** | — |
+| Randomness required | **None** | Yes |
+| Leader required | **None** | Yes |
 
-- A minimal public verification benchmark for the canonical 5-axis constellation and rotor
-- Side-by-side latency tests versus an Ethereum test node
-- Genesis benchmark notes from the first successful end-to-end run
-- A development report capturing the initial multi-node PoC environment
+> ⚠️ **Important:** The 20,000 decisions / 2µs figure reflects the
+> **off-chain arbitration kernel** — pure geometric computation
+> (centroid + rotor + audit). On-chain EVM state mutation adds
+> ~9.63ms per operation, consistent with standard Ethereum testnet
+> behavior. The decision layer is SevenFold's contribution —
+> the transport layer is the network's.
+>
+> *Validated March 2026 — Hardhat + Anvil, 3 independent nodes,
+> live on-chain convergence confirmed.*
 
-These materials are supporting evidence for the Zenodo papers and show that SevenFold has
-been implemented and exercised in a real test environment. They are **illustrative**, not
-a production deployment guide.
+Full benchmark and development artifacts are in the
+[`/reports`](reports/) folder, including side-by-side latency
+tests, genesis benchmark notes, and the multi-node PoC
+development report. These are illustrative, not a production
+deployment guide.
+
 
 ---
 
@@ -214,11 +229,14 @@ SevenFold Labs LLC
 
 ## Status
 
-- Zenodo archival record published
-- Canonical definitions and protocol specification published
-- Public benchmark and development reports available under `/reports`
-- Patent pending (filed December 1, 2025)
-- Reference implementation in active development
+✅ Formal proofs published — Zenodo (Feb 2026)
+✅ Provisional patent filed — Dec 1, 2025
+✅ Multi-node convergence validated — 3 nodes, March 2026
+✅ Live on-chain convergence confirmed
+✅ Solidity (EVM) + Rust (Tokio) implementations complete
+🔄 Production SDK — in development
+🔄 Public testnet — in development
+🔄 AI arbitration wrapper — in development
 
 ---
 
