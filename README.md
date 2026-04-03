@@ -1,4 +1,16 @@
 # SevenFold  
+<p align="center">
+  <img src="docs/figures/sevenfold_geometric_consensus.png"
+       width="700"
+       alt="SevenFold Geometric Consensus Predicate"/>
+</p>
+
+> *Validator wind vectors aggregate to centroid C. Rotor traversal
+> [0, 3, 1, 4, 2] selects the evaluation axis. Consensus seals
+> when p = C · aₖ ≥ τ while ‖C‖ ≤ R.*
+
+---
+
 ### A Deterministic Geometric Proof of Consensus  
 
 **SevenFold** introduces a new class of deterministic consensus: one that converges through **geometric structure rather than probability, randomness, timing assumptions, or leader election**.
